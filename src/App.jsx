@@ -9,8 +9,8 @@ const App = () => {
   return (
     <>
       <Menu style={{ borderRadius: 0, background: '' }}>
-        <Menu.Item>
-          <Image src={logo} size='tiny' centered />
+        <Menu.Item data-cy="logo">
+          <Image data-cy="logoImg"src={logo} size='tiny' centered />
         </Menu.Item>
         <Menu.Menu position='right'>
           <Menu.Item>
@@ -23,7 +23,7 @@ const App = () => {
         <Header data-cy="header" as='h2' >
           News Wire Network
           </Header>
-        <p>News from around the world</p>
+        <p data-cy="header-card">News from around the world</p>
         <NewsIndex />
       </Container>
     </>
