@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-redux": "^7.2.2",
-    "react-scripts": "4.0.1",
-    "redux": "^4.0.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.21.4",
+    "babel": "^6.23.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1",
-    "web-vitals": "^0.2.4"
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",
@@ -45,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "4.1.0",
-    "start-server-and-test": "^1.11.6"
+    "cypress": "8.4.0",
+    "start-server-and-test": "^1.14.0"
   }
 }

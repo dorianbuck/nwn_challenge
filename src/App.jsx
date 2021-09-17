@@ -20,7 +20,7 @@ const App = () => {
       </Menu>
       <Container>
 
-        <Header as='h2' >
+        <Header data-cy="header" as='h2' >
           News Wire Network
           </Header>
         <p>News from around the world</p>
