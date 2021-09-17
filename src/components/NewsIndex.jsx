@@ -1,12 +1,12 @@
 import React from 'react'
 // import { useSelector } from 'react-redux'
-import NewsCard from './NewsCard'
+import NewsHeadline from './NewsHeadlines'
 
 
 const NewsIndex = () => {
   return (
     <>
-      <NewsCard />
+      <NewsHeadline />
     </>
   )
 }

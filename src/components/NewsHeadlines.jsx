@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import NewsCard from "./NewsCard";
 import { Container, Grid } from "semantic-ui-react";
 
-const News = () => {
+const NewsHeadline = () => {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    axios.get("./data/news.json").then((response) => {
+    axios.get("./data/newsHeadlines.json").then((response) => {
       setNews(response.data);
     });
   }, []);
@@ -21,10 +21,9 @@ const News = () => {
   });
   return (
     <Container>
-      <h1 id="news-header">My News</h1>
       <Grid>{newsList}</Grid>
     </Container>
   );
 };
 
-export default News;  
+export default NewsHeadline;  
