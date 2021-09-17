@@ -9,16 +9,21 @@ const NewsHeadline = () => {
   useEffect(() => {
     axios.get("./data/newsHeadlines.json").then((response) => {
       setNews(response.data);
+      console.log(news)
     });
   }, []);
 
-  let newsList = news.map((news) => {
+  
+  let newsList = news.map((newss) => {
     return (
-      <div id={`news-${news.id}`} key={news.id}>
-        <NewsCard news={news} />
+      <div id={`new-${newss.id}`} key={newss.id}>
+        <NewsCard newss={newss} />
       </div>
     );
   });
+  
+  debugger
+  
   return (
     <Container>
       <Grid>{newsList}</Grid>

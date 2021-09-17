@@ -1,17 +1,15 @@
 import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
 
-const NewsCard = (news) => {
+const NewsCard = ({newss}) => {
   return (
-      <button oneclick="NewsCard">
         <Card>
-          <Image src={news.image} wrapped ui={false}/>
+          <Image src={newss.image} wrapped ui={false}/>
           <Card.Content>
-            <Card.Header>{news.name}</Card.Header>
-            <Card.Description>{news.description}</Card.Description>
+            <Card.Header>{newss.name}</Card.Header>
+            <Card.Description>{newss.description}</Card.Description>
           </Card.Content>
         </Card>
-      </button>
   );
 }
 
