@@ -1,8 +1,10 @@
+import fakeLocation from "../support/fakeLocation";
+
 describe('Visitor Can See A Collection Of News', () => {
   beforeEach(() => {
     cy.server()
     cy.route('GET', "**/top-headlines**country=se", "fx:news_index.json")
-    cy.visit('/')
+    cy.visit('/', fakeLocation({ latitude: 48.858093, longitude: 32.294694 }))
     cy.get("[data-cy='news-section']").as('newsSection')
   });
   it('On Page Load', () => {
