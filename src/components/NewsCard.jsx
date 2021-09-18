@@ -8,7 +8,7 @@ const NewsCard = ({ item }) => {
       header={item.title}
       meta={`By: ${item.author} at ${item.source.name}`}
       description={item.description}
-      extra={<Header as='h6'>`Published at ${item.publishedAt}`</Header>}
+      extra={<Header as="h6">Published at `${item.publishedAt}`</Header>}
     />
   )
 }
