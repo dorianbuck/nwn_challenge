@@ -6,6 +6,11 @@ const rootReducer = (state, action) => {
         ...state,
         newsFeed: action.payload
       }
+    case "SET_COUNTRY_CODE":
+      return {
+        ...state,
+        countryCode: action.payload
+      }
 
     default:
       return state
