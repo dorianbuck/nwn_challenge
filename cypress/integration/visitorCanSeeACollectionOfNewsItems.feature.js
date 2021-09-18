@@ -10,6 +10,11 @@ describe('Visitor Can See A Collection Of News', () => {
       .children()
       .should('have.length', 20)
   });
+  it('On Page Load', () => {
+    cy.get('@newsSection')
+      .children()
+      .should('have.length', 20)
+  });
 
   it("is expected for header to exist and have image", () => {
     cy.get("[data-cy=logo]").within(() => {
