@@ -14,6 +14,7 @@ const CountryService = async (coords) => {
   + '&no_annotations=1';
 
   let results = await axios.get(requestUrl)
+  console.log(results)
   return results.data.results[0].components.country_code
 }
 

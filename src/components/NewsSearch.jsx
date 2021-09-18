@@ -6,9 +6,9 @@ import { Input, Button } from 'semantic-ui-react'
 const NewsSearch = () => {
   const [query, setQuery] = useState('')
   const { searchQuery, countryCode } = useSelector(state => state)
-  // const dispatch = useDispatch()
-  // useEffect(() => NewsService.index(dispatch), [])
-  // useEffect(() => NewsService.index(dispatch), [serachQuery])
+  const dispatch = useDispatch()
+  useEffect(() => NewsService.index(dispatch), [])
+  useEffect(() => NewsService.index(dispatch), [searchQuery])
   useEffect(() => NewsService.index(countryCode), [])
   useEffect(() => NewsService.index(countryCode), [searchQuery, countryCode])
 
