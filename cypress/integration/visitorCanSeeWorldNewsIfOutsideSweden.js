@@ -8,7 +8,6 @@ describe("Visitor Can See A Collection Of News Outside Of Sweden", () => {
     cy.intercept("https://newsapi.org/v2/top-headlines**", {
       fixture: "world_news_index",
     });
-    // cy.route("GET", "**/top-headlines**country=fr", "fx:world_news_index.json");
     cy.visit("/", fakeLocation({ latitude: 48.858093, longitude: 2.294694 }));
     cy.get("[data-cy='news-section']").as("newsSection");
   });
