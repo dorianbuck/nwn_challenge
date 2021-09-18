@@ -1,0 +1,127 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+      {
+          "name": "see attribution guide",
+          "url": "https://opencagedata.com/credits"
+      }
+  ],
+  "rate": {
+      "limit": 2500,
+      "remaining": 2492,
+      "reset": 1632009600
+  },
+  "results": [
+      {
+          "annotations": {
+              "DMS": {
+                  "lat": "47° 59' 54.72240'' N",
+                  "lng": "2° 0' 10.52280'' E"
+              },
+              "MGRS": "31TDP2562016618",
+              "Maidenhead": "JN17ax09ip",
+              "Mercator": {
+                  "x": 222964.368,
+                  "y": 6074841.937
+              },
+              "OSM": {
+                  "note_url": "https://www.openstreetmap.org/note/new#map=16/47.99853/2.00292&layers=N",
+                  "url": "https://www.openstreetmap.org/?mlat=47.99853&mlon=2.00292#map=16/47.99853/2.00292"
+              },
+              "UN_M49": {
+                  "regions": {
+                      "EUROPE": "150",
+                      "FR": "250",
+                      "WESTERN_EUROPE": "155",
+                      "WORLD": "001"
+                  },
+                  "statistical_groupings": [
+                      "MEDC"
+                  ]
+              },
+              "callingcode": 33,
+              "currency": {
+                  "alternate_symbols": [],
+                  "decimal_mark": ",",
+                  "html_entity": "&#x20AC;",
+                  "iso_code": "EUR",
+                  "iso_numeric": "978",
+                  "name": "Euro",
+                  "smallest_denomination": 1,
+                  "subunit": "Cent",
+                  "subunit_to_unit": 100,
+                  "symbol": "€",
+                  "symbol_first": 0,
+                  "thousands_separator": "."
+              },
+              "flag": "🇫🇷",
+              "geohash": "u093j9f7xrr8h34uvkdx",
+              "qibla": 117.88,
+              "roadinfo": {
+                  "drive_on": "right",
+                  "speed_in": "km/h"
+              },
+              "sun": {
+                  "rise": {
+                      "apparent": 1631943240,
+                      "astronomical": 1631936880,
+                      "civil": 1631941380,
+                      "nautical": 1631939160
+                  },
+                  "set": {
+                      "apparent": 1631987820,
+                      "astronomical": 1631994120,
+                      "civil": 1631989680,
+                      "nautical": 1631991840
+                  }
+              },
+              "timezone": {
+                  "name": "Europe/Paris",
+                  "now_in_dst": 1,
+                  "offset_sec": 7200,
+                  "offset_string": "+0200",
+                  "short_name": "CEST"
+              },
+              "what3words": {
+                  "words": "streak.converter.wafts"
+              }
+          },
+          "components": {
+              "ISO_3166-1_alpha-2": "FR",
+              "ISO_3166-1_alpha-3": "FRA",
+              "_category": "road",
+              "_type": "road",
+              "city": "Rebréchien",
+              "continent": "Europe",
+              "country": "France",
+              "country_code": "fr",
+              "place": "Étang du Grand Pont",
+              "political_union": "European Union",
+              "postcode": "45470",
+              "state": "Centre-Val de Loire",
+              "state_code": "CVL",
+              "state_district": "Loiret"
+          },
+          "confidence": 9,
+          "formatted": "Étang du Grand Pont, 45470 Rebréchien, France",
+          "geometry": {
+              "lat": 47.998534,
+              "lng": 2.002923
+          }
+      }
+  ],
+  "status": {
+      "code": 200,
+      "message": "OK"
+  },
+  "stay_informed": {
+      "blog": "https://blog.opencagedata.com",
+      "twitter": "https://twitter.com/OpenCage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+      "created_http": "Sat, 18 Sep 2021 15:25:21 GMT",
+      "created_unix": 1631978721
+  },
+  "total_results": 1
+}

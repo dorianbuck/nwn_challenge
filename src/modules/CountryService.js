@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 
 const CountryService = async (coords) => {
-  const apiKey = '55082dd8fb7e473db8dab86a33518599';
+  const apiKey = "55082dd8fb7e473db8dab86a33518599";
   const { latitude, longitude } = coords;
 
   const apiUrl = process.env.REACT_APP_LOCATION_API_URL
@@ -13,9 +13,9 @@ const CountryService = async (coords) => {
   + '&pretty=1'
   + '&no_annotations=1';
 
-  let results = await axios.get(requestUrl)
-  console.log("results")
-  return results.data.results[0].components.country_code
-}
+  let results = await axios.get(requestUrl);
 
-export default CountryService
+  return results.data.results[0].components.country_code;
+};
+
+export default CountryService;
