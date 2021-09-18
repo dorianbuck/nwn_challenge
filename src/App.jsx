@@ -25,12 +25,12 @@ const App = () => {
     <>
       <Menu style={{ borderRadius: 0, background: '' }}>
         <Menu.Item data-cy="logo">
-          <Image data-cy="logoImg"src={logo} size='tiny' centered />
+          <Image href="/" data-cy="logoImg"src={logo} size='tiny' centered />
         </Menu.Item>
         <Menu.Menu position='right'>
-          <Menu.Item>{location.latitude} {location.longitude}</Menu.Item>
+          <Menu.Item data-cy="location-display">{location.latitude} {location.longitude}</Menu.Item>
           <Menu.Item>
-            <NewsSearch />
+            <NewsSearch data-cy="news-search" />
           </Menu.Item>
         </Menu.Menu>
       </Menu>

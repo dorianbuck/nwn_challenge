@@ -1,0 +1,139 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+      {
+          "name": "see attribution guide",
+          "url": "https://opencagedata.com/credits"
+      }
+  ],
+  "rate": {
+      "limit": 2500,
+      "remaining": 2489,
+      "reset": 1632009600
+  },
+  "results": [
+      {
+          "annotations": {
+              "DMS": {
+                  "lat": "59° 0' 0.87372'' N",
+                  "lng": "17° 59' 57.67548'' E"
+              },
+              "MGRS": "33VXF7228143945",
+              "Maidenhead": "JO89xa90wb",
+              "Mercator": {
+                  "x": 2003678.955,
+                  "y": 8143780.017
+              },
+              "OSM": {
+                  "edit_url": "https://www.openstreetmap.org/edit?node=7472926485#map=16/59.00024/17.99935",
+                  "note_url": "https://www.openstreetmap.org/note/new#map=16/59.00024/17.99935&layers=N",
+                  "url": "https://www.openstreetmap.org/?mlat=59.00024&mlon=17.99935#map=16/59.00024/17.99935"
+              },
+              "UN_M49": {
+                  "regions": {
+                      "EUROPE": "150",
+                      "NORTHERN_EUROPE": "154",
+                      "SE": "752",
+                      "WORLD": "001"
+                  },
+                  "statistical_groupings": [
+                      "MEDC"
+                  ]
+              },
+              "callingcode": 46,
+              "currency": {
+                  "alternate_symbols": [
+                      ":-"
+                  ],
+                  "decimal_mark": ",",
+                  "disambiguate_symbol": "SEK",
+                  "format": "%n %u",
+                  "html_entity": "",
+                  "iso_code": "SEK",
+                  "iso_numeric": "752",
+                  "name": "Swedish Krona",
+                  "smallest_denomination": 100,
+                  "subunit": "Öre",
+                  "subunit_to_unit": 100,
+                  "symbol": "kr",
+                  "symbol_first": 0,
+                  "thousands_separator": " "
+              },
+              "flag": "🇸🇪",
+              "geohash": "u6kz9sdtr67kdxejkjx0",
+              "qibla": 147.94,
+              "roadinfo": {
+                  "drive_on": "right",
+                  "speed_in": "km/h"
+              },
+              "sun": {
+                  "rise": {
+                      "apparent": 1631939100,
+                      "astronomical": 1631930400,
+                      "civil": 1631936640,
+                      "nautical": 1631933700
+                  },
+                  "set": {
+                      "apparent": 1631984280,
+                      "astronomical": 1631992860,
+                      "civil": 1631986740,
+                      "nautical": 1631989680
+                  }
+              },
+              "timezone": {
+                  "name": "Europe/Stockholm",
+                  "now_in_dst": 1,
+                  "offset_sec": 7200,
+                  "offset_string": "+0200",
+                  "short_name": "CEST"
+              },
+              "what3words": {
+                  "words": "ditsy.clicking.minimally"
+              }
+          },
+          "bounds": {
+              "northeast": {
+                  "lat": 59.0002927,
+                  "lng": 17.9994043
+              },
+              "southwest": {
+                  "lat": 59.0001927,
+                  "lng": 17.9993043
+              }
+          },
+          "components": {
+              "ISO_3166-1_alpha-2": "SE",
+              "ISO_3166-1_alpha-3": "SWE",
+              "_category": "building",
+              "_type": "building",
+              "continent": "Europe",
+              "country": "Sweden",
+              "country_code": "se",
+              "county": "Stockholm County",
+              "isolated_dwelling": "Kalkugnen",
+              "municipality": "Nynäshamns kommun",
+              "political_union": "European Union"
+          },
+          "confidence": 10,
+          "formatted": "Kalkugnen, Nynäshamns kommun, Stockholm County, Sweden",
+          "geometry": {
+              "lat": 59.0002427,
+              "lng": 17.9993543
+          }
+      }
+  ],
+  "status": {
+      "code": 200,
+      "message": "OK"
+  },
+  "stay_informed": {
+      "blog": "https://blog.opencagedata.com",
+      "twitter": "https://twitter.com/OpenCage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+      "created_http": "Sat, 18 Sep 2021 20:37:01 GMT",
+      "created_unix": 1631997421
+  },
+  "total_results": 1
+}
