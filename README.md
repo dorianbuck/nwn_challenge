@@ -1,5 +1,17 @@
 # The code
-### This challenge gives you legacy code as an unfinsihed project. The goal is to make it work and have it look presentable. 
+### This challenge gives you legacy code as an unfinished project. The goal is to make it functionable and have it look presentable. 
+### Author Dorian and Fraser
+[Deployed at]
+(https://loving-bose-2ed210.netlify.app/)
+
+### Dependencies  
+* Yarn
+* React 
+* Cypress
+* Redux
+* Thunk
+* Axios
+* Semantic-ui-react/css
 
 
 
