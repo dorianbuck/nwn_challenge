@@ -34,7 +34,7 @@ const App = () => {
           </Menu.Item>
         </Menu.Menu>
       </Menu>
-      <Container>
+      <Container textAlign="left">
         <Header as='h2' data-cy="header">
           News Wire Network
           </Header>
