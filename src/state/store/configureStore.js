@@ -8,6 +8,6 @@ const initialState = { newsFeed: [], countryCode: 'se' }
 
 // export default configureStore
 
-const store = createStore(rootReducer, initialState)
+const store = createStore(rootReducer, initialState, applyMiddleware(thunk))
 
 export default store
