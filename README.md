@@ -1,3 +1,9 @@
+# The code
+### This challenge gives you legacy code as an unfinsihed project. The goal is to make it work and have it look presentable. 
+
+
+
+
 ## NWN - News Wire Network Challenge
 
 ![](./src/nwn.png)
