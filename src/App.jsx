@@ -18,9 +18,13 @@ const App = () => {
       setLocation(position.coords)
     })
   }, [])
+
+
+  
   useEffect(() => {
     getCountryCode()
-  }, [location])
+  }, [location])// eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <>
       <Menu style={{ borderRadius: 0, background: '' }}>

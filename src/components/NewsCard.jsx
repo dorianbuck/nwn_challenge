@@ -4,7 +4,7 @@ import { Card, Header, Button } from "semantic-ui-react";
 const NewsCard = ({ item }) => {
   return (
     <a href={item.url}>
-      <Button basic onClick="NewsCard">
+      <Button basic>
         <Card
           data-cy="news-card"
           image={item.urlToImage}
